@@ -1,19 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import TodoForm from './components/TodoForm';
+import React from 'react';
 import TaskForm from './components/TaskForm';
-import TaskItem from './components/TaskItem';
 import TaskList from './components/TaskList';
+import Filter from './components/Filter';
+import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div className="app-container">
+      <h1>To-Do List</h1>
       <TaskForm />
-      <TaskItem/>
+      <Filter />
       <TaskList />
-      <filter/>
     </div>
   );
-}
+};
 
 export default App;
