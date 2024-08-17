@@ -11,6 +11,7 @@ function App() {
       <TaskForm />
       <TaskItem/>
       <TaskList />
+      <filter/>
     </div>
   );
 }
