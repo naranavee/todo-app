@@ -1,0 +1,16 @@
+.filter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: large;
+  }
+  
+  .filter-label {
+    margin-right: 10px;
+  }
+  
+  .filter-select {
+    width: 200px;
+  }
+  
